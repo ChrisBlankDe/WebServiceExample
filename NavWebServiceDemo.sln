@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavWebServiceDemo.Console", "NavWebServiceDemo.Console\NavWebServiceDemo.Console.csproj", "{A43D9C0B-9FDE-4257-A3BA-305F3A6FB7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavWebServiceDemo.Forms", "NavWebServiceDemo.Forms\NavWebServiceDemo.Forms.csproj", "{34D99BB1-9538-43F3-A9DF-03E6C94564B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A43D9C0B-9FDE-4257-A3BA-305F3A6FB7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43D9C0B-9FDE-4257-A3BA-305F3A6FB7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43D9C0B-9FDE-4257-A3BA-305F3A6FB7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43D9C0B-9FDE-4257-A3BA-305F3A6FB7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D99BB1-9538-43F3-A9DF-03E6C94564B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D99BB1-9538-43F3-A9DF-03E6C94564B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D99BB1-9538-43F3-A9DF-03E6C94564B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D99BB1-9538-43F3-A9DF-03E6C94564B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {760A8BDA-147A-45F8-BE6F-79CB7E77A780}
+	EndGlobalSection
+EndGlobal
