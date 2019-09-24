@@ -31,6 +31,7 @@ namespace NavWebServiceDemo.Console
                 {
                     UserName = {UserName = _userName, Password = _password } //Credentials for Basic Auth or
                     //Windows = { ClientCredential = System.Net.CredentialCache.DefaultNetworkCredentials} //Or use the current network credentials for Windows Auth
+                    //Windows = { ClientCredential = new System.Net.NetworkCredential("admin", "Start2018Start2018")} //Or use a specific User/Pass for Windows Auth
                 }
             };
         }
@@ -52,8 +53,32 @@ namespace NavWebServiceDemo.Console
                 {
                     UserName = {UserName = "admin", Password = "Start2018Start2018"} //Credentials for Basic Auth or
                     //Windows = { ClientCredential = System.Net.CredentialCache.DefaultNetworkCredentials} //Or use the current network credentials for Windows Auth
+                    //Windows = { ClientCredential = new System.Net.NetworkCredential("admin", "Start2018Start2018")} //Or use a specific User/Pass for Windows Auth
                 }
             };
         }
+//         HTTP Example:
+//         public static SystemService_PortClient SystemServicePortClient()
+//         {
+//             return new SystemService_PortClient(
+//                 new BasicHttpBinding
+//                 {
+//                     Security =
+//                     {
+//                         Mode = BasicHttpSecurityMode.TransportCredentialOnly,
+//                         Transport = {ClientCredentialType = HttpClientCredentialType.Basic} //Use Basic Auth or
+//                         //Transport = {ClientCredentialType = HttpClientCredentialType.Windows} //Use Windows Auth
+//                     }
+//                 }, new EndpointAddress("https://ws01.westeurope.cloudapp.azure.com:7047/NAV/WS/SystemService"))
+//             {
+//                 ClientCredentials =
+//                 {
+//                     UserName = {UserName = "admin", Password = "Start2018Start2018"} //Credentials for Basic Auth or
+//                     //Windows = { ClientCredential = System.Net.CredentialCache.DefaultNetworkCredentials} //Or use the current network credentials for Windows Auth
+//                     //Windows = { ClientCredential = new System.Net.NetworkCredential("admin", "Start2018Start2018")} //Or use a specific User/Pass for Windows Auth
+//                 }
+//             };
+//         }
+
     }
 }
